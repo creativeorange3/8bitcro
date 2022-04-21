@@ -44,15 +44,36 @@ const LotrGroundLayer = React.memo(props => {
 
       <BrowserView>
         <Intro transform={{ position: { x: 100, y: 250 } }} />
-        <Brief font={{color: "black"}} content={{h1: 'Have no fucking idea', h2: 'TG, poocoin?'}} transform={{ position: { x: 1800, y: 250 } }} />
-        <Brief font={{color: "black"}} content={{h1: 'Tokenomics??', h2: '8% 3% 5% ???'}} transform={{ position: { x: 3000, y: 250 } }} />
-        <Brief font={{color: "black"}} content={{h1: 'Beware, Roadmap incoming!', h2: 'Learn what we are planning for'}} transform={{ position: { x: 4800, y: 250 } }} />
+        <Brief font={{ color: "black" }} content={{ h1: 'Mint NFTs, explore, conquer', h2: 'Win rewards!' }} transform={{ position: { x: 1800, y: 250 } }} />
+        {/* <Brief font={{ color: "black" }} content={{ h1: 'Follow our socials:', h2: '6% marketing, 2% LP, 2% development' }} transform={{ position: { x: 3000, y: 250 } }} /> */}
+        <SceneObject
+          name="Thanks"
+          transform={{
+            position: {x: 3000, y: 250},
+            scale: { x: 425, y: 450 },
+          }}
+        >
+          <h2 style={{ color: "black" }}>Follow us on our socials:</h2>
+          <h3 style={{ color: "blue" }}><a style={{ textDecoration: "none", color:"yellow" }} href="https://www.google.com" target={"_blank"}>TELEGRAM</a></h3>
+          <h3 style={{ color: "blue" }}><a style={{ textDecoration: "none", color:"yellow" }} href="https://www.google.com" target={"_blank"}>TWITTER</a></h3>
+        </SceneObject>
+        <Brief font={{ color: "black" }} content={{ h1: 'Beware, Tokenomics incoming!' }} transform={{ position: { x: 4800, y: 250 } }} />
       </BrowserView>
       <MobileView>
         <Intro transform={{ position: { x: -200, y: 1000 } }} />
-        <Brief font={{color: "black"}} content={{h1: 'Have no fucking idea', h2: 'TG, poocoin?'}} transform={{ position: { x: 1700, y: 1000 } }} />
-        <Brief font={{color: "black"}} content={{h1: 'Tokenomics??', h2: '8% 3% 5% ???'}} transform={{ position: { x: 3200, y: 1000 } }} />
-        <Brief font={{color: "black"}} content={{h1: 'Beware, Roadmap incoming!', h2: 'Learn what we are planning for'}} transform={{ position: { x: 4800, y: 1000 } }} />
+        <Brief font={{ color: "black" }} content={{ h1: 'Mint NFTs, explore, conquer', h2: 'Win rewards!' }} transform={{ position: { x: 1700, y: 1000 } }} />
+        <SceneObject
+          name="Thanks"
+          transform={{
+            position: {x: 3200, y: 1000},
+            scale: { x: 425, y: 450 },
+          }}
+        >
+          <h2 style={{ color: "black" }}>Follow us on our socials:</h2>
+          <h3 style={{ color: "blue" }}><a style={{ textDecoration: "none", color:"yellow" }} href="https://www.google.com" target={"_blank"}>TELEGRAM</a></h3>
+          <h3 style={{ color: "blue" }}><a style={{ textDecoration: "none", color:"yellow" }} href="https://www.google.com" target={"_blank"}>TWITTER</a></h3>
+        </SceneObject>
+        <Brief font={{ color: "black" }} content={{ h1: 'Roadmap incoming!', h2: 'Learn what we are planning for' }} transform={{ position: { x: 4800, y: 1000 } }} />
       </MobileView>
       <Tree
         transform={{ position: { x: 3300, y: 47 }, scale: { x: 400, y: 503 } }}

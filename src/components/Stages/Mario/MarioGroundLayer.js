@@ -28,16 +28,14 @@ const MarioGroundLayer = React.memo((props) => {
   return (
     <SceneObject {...props} name="Mario Ground Layer">
     <BrowserView>
-      <Brief font={{color: "black"}} content={{ h1: 'Some shit', h2: '' }} transform={{ position: { x: 100, y: 500 } }} />
-      <Brief font={{color: "black"}} content={{ h1: 'Some shit', h2: '' }} transform={{ position: { x: 1800, y: 350 } }} />
-      <Brief font={{color: "black"}} content={{ h1: 'Some shit', h2: '' }} transform={{ position: { x: 3000, y: 350 } }} />
-      <Brief font={{color: "black"}} content={{ h1: 'Some shit', h2: '' }} transform={{ position: { x: 4500, y: 350 } }} />
+      <Brief font={{color: "black"}} content={{ h1: 'Lets grow together!', h2: 'Become a part of our community' }} transform={{ position: { x: 100, y: 250 } }} />
+      <Brief font={{color: "black"}} content={{ h1: '', h2: '' }} transform={{ position: { x: 1800, y: 250 } }} />
+      <Brief font={{color: "black"}} content={{ h1: 'Take a leap of faith', h2: '' }} transform={{ position: { x: 4500, y: 250 } }} />
     </BrowserView>
     <MobileView>
-      <Brief font={{color: "black"}} content={{ h1: 'Some shit', h2: '' }} transform={{ position: { x: 100, y: 1000 } }} />
-      <Brief font={{color: "black"}} content={{ h1: 'Some shit', h2: '' }} transform={{ position: { x: 1800, y: 1000 } }} />
-      <Brief font={{color: "black"}} content={{ h1: 'Some shit', h2: '' }} transform={{ position: { x: 3000, y: 1000 } }} />
-      <Brief font={{color: "black"}} content={{ h1: 'Some shit', h2: '' }} transform={{ position: { x: 4500, y: 1000 } }} />
+      <Brief font={{color: "black"}} content={{ h1: 'Lets grow together!', h2: 'Become a part of our community' }} transform={{ position: { x: 100, y: 1000 } }} />
+      <Brief font={{color: "black"}} content={{ h1: '', h2: '' }} transform={{ position: { x: 1800, y: 1000 } }} />
+      <Brief font={{color: "black"}} content={{ h1: 'Take a leap of faith', h2: '' }} transform={{ position: { x: 4500, y: 1000 } }} />
     </MobileView>
       <SceneObject
         name="MARIOGROUND"
@@ -62,7 +60,6 @@ const MarioGroundLayer = React.memo((props) => {
       />
       <Hill transform={{ position: { x: 275, y: 100 } }} />
       <Bush transform={{ position: { x: 675, y: 100 } }} />
-      <PrizeBox transform={{ position: { x: 350, y: 450 } }} />
       <MushroomAnimated
         transform={{ position: { x: 750, y: 550 } }}
         animStartScroll={18500}

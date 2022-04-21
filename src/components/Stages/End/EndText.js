@@ -14,19 +14,19 @@ const EndText = React.memo(props => (
     style={{ textDecoration: "none" }} href="#"
   >
     <h1 style={{ color: "#6B6B6B" }}>
-      Telegram?
+      Telegram
     </h1>
   </a>
     <a
       style={{ textDecoration: "none" }} href="#"
     >
       <h1 style={{ color: "#6B6B6B" }}>
-        Poocoin?
+        Chart
       </h1>
     </a>
 
     <a style={{ textDecoration: "none" }} href="#">
-      <h3 style={{ color: "white" }}>Dev David 2021</h3>
+      <h3 style={{ color: "white" }}>8bitcro</h3>
     </a>
   </SceneObject>
 ));

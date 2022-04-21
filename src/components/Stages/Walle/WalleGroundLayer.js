@@ -17,16 +17,16 @@ const WalleGroundLayer = React.memo(props => {
   return (
     <SceneObject {...props} name="Walle Ground Layer">
     <BrowserView>
-      <Brief font={{color: "black"}} content={{ h1: 'Created by an experienced team', h2: 'We know a thing or two' }} transform={{ position: { x: 100, y: 500 } }} />
-      <Brief font={{color: "black"}} content={{ h1: 'Person one', h2: 'links' }} transform={{ position: { x: 1800, y: 350 } }} />
-      <Brief font={{color: "black"}} content={{ h1: 'Person two', h2: 'links' }} transform={{ position: { x: 3000, y: 350 } }} />
-      <Brief font={{color: "black"}} content={{ h1: 'Person three', h2: 'links' }} transform={{ position: { x: 4500, y: 350 } }} />
+      <Brief font={{color: "black"}} content={{ h1: 'ROADMAP' }} transform={{ position: { x: 100, y: 250 } }} />
+      <Brief font={{color: "black"}} content={{ h1: 'NFT mint', h2: 'Creating and minting 8bit NFTs' }} transform={{ position: { x: 1800, y: 250 } }} />
+      <Brief font={{color: "black"}} content={{ h1: 'Game development', h2: 'Building an NFT based 8bit exploration game' }} transform={{ position: { x: 3000, y: 250 } }} />
+      <Brief font={{color: "black"}} content={{ h1: '8bitverse', h2: 'Creating unique 8bit metaverse layer' }} transform={{ position: { x: 4500, y: 250 } }} />
     </BrowserView>
     <MobileView>
-      <Brief font={{color: "black"}} content={{ h1: 'Created by an experienced team', h2: 'We know a thing or two' }} transform={{ position: { x: 100, y: 1000 } }} />
-      <Brief font={{color: "black"}} content={{ h1: 'Person one', h2: 'links' }} transform={{ position: { x: 1800, y: 1000 } }} />
-      <Brief font={{color: "black"}} content={{ h1: 'Person two', h2: 'links' }} transform={{ position: { x: 3000, y: 1000 } }} />
-      <Brief font={{color: "black"}} content={{ h1: 'Person three', h2: 'links' }} transform={{ position: { x: 4500, y: 1000 } }} />
+      <Brief font={{color: "black"}} content={{ h1: 'ROADMAP' }} transform={{ position: { x: 100, y: 1000 } }} />
+      <Brief font={{color: "black"}} content={{ h1: 'NFT mint', h2: 'Creating and minting 8bit NFTs' }} transform={{ position: { x: 1800, y: 1000 } }} />
+      <Brief font={{color: "black"}} content={{ h1: 'Game development', h2: 'Building an NFT based 8bit exploration game' }} transform={{ position: { x: 3000, y: 1000 } }} />
+      <Brief font={{color: "black"}} content={{ h1: '8bitverse', h2: 'Creating unique 8bit metaverse layer' }} transform={{ position: { x: 4500, y: 1000 } }} />
     </MobileView>
       <SceneObject
         name="WALLEGROUND"

@@ -10,8 +10,8 @@ const Intro = React.memo(props => (
       rotation: props.transform.rotation
     }}
   >
-    <h2 style={{ color: "black" }}>Welcome to 8bit!</h2>
-    <h3 style={{ color: "black" }}>An NFT based P2E Game</h3>
+    <h2 style={{ color: "black" }}>Welcome to 8bitcro, NFT based exploration Game</h2>
+    <h3 style={{ color: "black" }}><a href="https://www.google.com" target={"_blank"}>BUY HERE</a></h3>
   </SceneObject>
 ));
 export default Intro;

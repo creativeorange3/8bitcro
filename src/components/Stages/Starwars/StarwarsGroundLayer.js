@@ -18,26 +18,26 @@ const StarwarsGroundLayer = React.memo(props => {
     <SceneObject {...props} name="Starwars Ground Layer">
 
       <BrowserView>
-        <Brief font={{color: "white"}} content={{ h1: 'NFT Creation', h2: 'Minting your favorite NFT Characters' }} transform={{ position: { x: 100, y: 500 } }} />
-        <Brief font={{color: "white"}} content={{ h1: 'P2E Game Development', h2: 'Putting those NFTs to work' }} transform={{ position: { x: 1800, y: 350 } }} />
-        <Brief font={{color: "white"}} content={{ h1: 'Crosschain Platform', h2: '???' }} transform={{ position: { x: 3000, y: 350 } }} />
-        <Brief font={{color: "white"}} content={{ h1: 'DAO Managed', h2: 'Or some shit' }} transform={{ position: { x: 4500, y: 350 } }} />
+        <Brief font={{color: "white"}} content={{ h1: 'Buy tax - 9%', h2: '5% Marketing, 2% LP, 2% development' }} transform={{ position: { x: 100, y: 250 } }} />
+        <Brief font={{color: "white"}} content={{ h1: 'Sell tax - 12%', h2: '8% Marketing, 2% LP, 2% development' }} transform={{ position: { x: 1800, y: 259 } }} />
+        <Brief font={{color: "white"}} content={{ h1: 'Total supply', h2: '10000000000' }} transform={{ position: { x: 3000, y: 250 } }} />
+        <Brief font={{color: "white"}} content={{ h1: 'Token Decimals', h2: '19' }} transform={{ position: { x: 4500, y: 250 } }} />
       </BrowserView>
       <MobileView>
-        <Brief font={{color: "white"}} content={{ h1: 'NFT Creation', h2: 'Minting your favorite NFT Characters' }} transform={{ position: { x: 100, y: 1000 } }} />
-        <Brief font={{color: "white"}} content={{ h1: 'P2E Game Development', h2: 'Putting those NFTs to work' }} transform={{ position: { x: 1800, y: 1000 } }} />
-        <Brief font={{color: "white"}} content={{ h1: 'Crosschain Platform', h2: '???' }} transform={{ position: { x: 3000, y: 1000 } }} />
-        <Brief font={{color: "white"}} content={{ h1: 'DAO Managed', h2: 'Or some shit' }} transform={{ position: { x: 4500, y: 1000 } }} />
+        <Brief font={{color: "white"}} content={{ h1: 'Buy tax - 9%', h2: '5% Marketing, 2% LP, 2% development' }} transform={{ position: { x: 100, y: 1000 } }} />
+        <Brief font={{color: "white"}} content={{ h1: 'Sell tax - 12%', h2: '8% Marketing, 2% LP, 2% development' }} transform={{ position: { x: 1800, y: 1000 } }} />
+        <Brief font={{color: "white"}} content={{ h1: 'Total supply', h2: '190000000000' }} transform={{ position: { x: 3000, y: 1000 } }} />
+        <Brief font={{color: "white"}} content={{ h1: 'Token Decimals', h2: '19' }} transform={{ position: { x: 4500, y: 1000 } }} />
       </MobileView>
       <SceneObject
         name="VADER VOLCANO"
         color="orange"
         transform={{ position: { x: -750, y: 0 }, scale: { x: 5800, y: 70 } }}
       />
-      <RedRock
+      {/* <RedRock
         transform={{ position: { x: -50, y: 100 }, scale: { x: 500, y: 1000 } }}
         type="5"
-      />
+      /> */}
       <RedRock
         transform={{ position: { x: 350, y: 70 }, scale: { x: 500, y: 1000 } }}
         type="2"
@@ -56,13 +56,13 @@ const StarwarsGroundLayer = React.memo(props => {
         transform={{ position: { x: 2200, y: 70 }, scale: { x: 550, y: 1000 } }}
         type="3"
       />
-      <RedRock
+      {/* <RedRock
         transform={{
           position: { x: 2700, y: 100 },
           scale: { x: 550, y: 1000 }
         }}
         type="5"
-      />
+      /> */}
       <RedRock
         transform={{
           position: { x: 4300, y: -613 },

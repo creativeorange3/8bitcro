@@ -18,14 +18,14 @@ const PacmanGroundLayer = React.memo(props => {
     <SceneObject {...props} name="Pacman Ground Layer">
 
     <BrowserView>
-      <Brief font={{color: "white"}} content={{h1: 'Again', h2: 'something?'}} transform={{ position: { x: 150, y: 350 } }} />
-      <Brief font={{color: "white"}} content={{h1: 'here??', h2: '?'}} transform={{ position: { x: 2300, y: 350 } }} />
-      <Brief font={{color: "white"}} content={{h1: 'Thanks for reading through,', h2: 'Ben you`re the MVP'}} transform={{ position: { x: 4800, y: 350 } }} />
+      <Brief font={{color: "white"}} content={{h1: 'Get rewarded!', h2: 'Huge contests and giveaways for our community'}} transform={{ position: { x: 150, y: 250 } }} />
+      <Brief font={{color: "white"}} content={{h1: 'Do you have what it takes?', h2: ''}} transform={{ position: { x: 2300, y: 250 } }} />
+      <Brief font={{color: "white"}} content={{h1: 'This was a fun ride huh?', h2: 'Send a message with #8bitarmy in our telegram to qualify for NFT giveaway on mint day'}} transform={{ position: { x: 4800, y: 250 } }} />
     </BrowserView>
     <MobileView>
-      <Brief font={{color: "white"}} content={{h1: 'Again', h2: 'something?'}} transform={{ position: { x: 150, y: 1000 } }} />
-      <Brief font={{color: "white"}} content={{h1: 'here??', h2: '?'}} transform={{ position: { x: 2300, y: 1000 } }} />
-      <Brief font={{color: "white"}} content={{h1: 'Thanks for reading through,', h2: 'Ben you`re the MVP'}} transform={{ position: { x: 4800, y: 1000 } }} />
+      <Brief font={{color: "white"}} content={{h1: 'Get rewarded!', h2: 'Huge contests and giveaways for our community'}} transform={{ position: { x: 150, y: 1000 } }} />
+      <Brief font={{color: "white"}} content={{h1: 'Do you have what it takes?', h2: ''}} transform={{ position: { x: 2300, y: 1000 } }} />
+      <Brief font={{color: "white"}} content={{h1: 'This was a fun ride huh?', h2: 'Send a message with #8bitarmy in our telegram to qualify for NFT giveaway on mint day'}} transform={{ position: { x: 4800, y: 1000 } }} />
     </MobileView>
       <SceneObject
         name="PACMANGROUND"
