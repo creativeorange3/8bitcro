@@ -53,9 +53,10 @@ const LotrGroundLayer = React.memo(props => {
             scale: { x: 425, y: 450 },
           }}
         >
-          <h2 style={{ color: "black" }}>Follow us on our socials:</h2>
+          <h2 style={{ color: "black" }}>Important links:</h2>
           <h3 style={{ color: "blue" }}><a style={{ textDecoration: "none", color:"yellow" }} href="https://www.google.com" target={"_blank"}>TELEGRAM</a></h3>
           <h3 style={{ color: "blue" }}><a style={{ textDecoration: "none", color:"yellow" }} href="https://www.google.com" target={"_blank"}>TWITTER</a></h3>
+          <h3 style={{ color: "blue" }}><a style={{ textDecoration: "none", color:"yellow" }} href="https://www.google.com" target={"_blank"}>WHITEPAPER</a></h3>
         </SceneObject>
         <Brief font={{ color: "black" }} content={{ h1: 'Beware, Tokenomics incoming!' }} transform={{ position: { x: 4800, y: 250 } }} />
       </BrowserView>
@@ -72,8 +73,9 @@ const LotrGroundLayer = React.memo(props => {
           <h2 style={{ color: "black" }}>Follow us on our socials:</h2>
           <h3 style={{ color: "blue" }}><a style={{ textDecoration: "none", color:"yellow" }} href="https://www.google.com" target={"_blank"}>TELEGRAM</a></h3>
           <h3 style={{ color: "blue" }}><a style={{ textDecoration: "none", color:"yellow" }} href="https://www.google.com" target={"_blank"}>TWITTER</a></h3>
+          <h3 style={{ color: "blue" }}><a style={{ textDecoration: "none", color:"yellow" }} href="https://www.google.com" target={"_blank"}>WHITEPAPER</a></h3>
         </SceneObject>
-        <Brief font={{ color: "black" }} content={{ h1: 'Roadmap incoming!', h2: 'Learn what we are planning for' }} transform={{ position: { x: 4800, y: 1000 } }} />
+        <Brief font={{ color: "black" }} content={{ h1: 'Tokenomics incoming!'  }} transform={{ position: { x: 4800, y: 1000 } }} />
       </MobileView>
       <Tree
         transform={{ position: { x: 3300, y: 47 }, scale: { x: 400, y: 503 } }}
