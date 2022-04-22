@@ -100,14 +100,9 @@ const WithScroll = (WrappedComponent) => {
             <div>
               <h1 style={{ marginLeft: 40 }}>
                 <div
-                  style={{
-                    width: 280,
-                    padding: 16,
-                    color: "#FFEB3B",
-                    backgroundColor: "#6B6B6B",
-                  }}
+                  
                 >
-                  8bit
+                  8bitcro
                 </div>
               </h1>
             </div>
