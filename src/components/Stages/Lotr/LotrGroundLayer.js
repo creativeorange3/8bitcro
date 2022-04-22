@@ -74,7 +74,7 @@ const LotrGroundLayer = React.memo(props => {
           <h2 style={{ color: "black" }}>Important links:</h2>
           <h3 style={{ color: "blue" }}><a style={{ textDecoration: "none", color:"yellow" }} href="https://t.me/eightbitcro" target={"_blank"}>TELEGRAM</a></h3>
           <h3 style={{ color: "blue" }}><a style={{ textDecoration: "none", color:"yellow" }} href="https://twitter.com/8bitcroofficial" target={"_blank"}>TWITTER</a></h3>
-          <h3 style={{ color: "blue" }}><a style={{ textDecoration: "none", color:"yellow" }} href="www.tiktok.com/@8bitcro" target={"_blank"}>TIKTOK</a></h3>
+          <h3 style={{ color: "blue" }}><a style={{ textDecoration: "none", color:"yellow" }} href="https://tiktok.com/@8bitcro" target={"_blank"}>TIKTOK</a></h3>
           <h3 style={{ color: "blue" }}><a style={{ textDecoration: "none", color:"yellow" }} href="https://8bit-cro.gitbook.io/8bitcro-whitepaper/" target={"_blank"}>WHITEPAPER</a></h3>
         </SceneObject>
         <Brief font={{ color: "black" }} content={{ h1: 'Tokenomics incoming!'  }} transform={{ position: { x: 4800, y: 1000 } }} />
