@@ -18,16 +18,16 @@ const StarwarsGroundLayer = React.memo(props => {
     <SceneObject {...props} name="Starwars Ground Layer">
 
       <BrowserView>
-        <Brief font={{color: "white"}} content={{ h1: 'Buy tax - 9%', h2: '5% Marketing, 2% LP, 2% development' }} transform={{ position: { x: 100, y: 250 } }} />
-        <Brief font={{color: "white"}} content={{ h1: 'Sell tax - 12%', h2: '8% Marketing, 2% LP, 2% development' }} transform={{ position: { x: 1800, y: 259 } }} />
-        <Brief font={{color: "white"}} content={{ h1: 'Total supply', h2: '10000000000' }} transform={{ position: { x: 3000, y: 250 } }} />
-        <Brief font={{color: "white"}} content={{ h1: 'Token Decimals', h2: '19' }} transform={{ position: { x: 4500, y: 250 } }} />
+        <Brief font={{color: "white"}} content={{ h1: 'Buy tax - 10%', h2: '6% Marketing, 2% LP, 2% development' }} transform={{ position: { x: 100, y: 250 } }} />
+        <Brief font={{color: "white"}} content={{ h1: 'Sell tax - 10%', h2: '6% Marketing, 2% LP, 2% development' }} transform={{ position: { x: 1800, y: 259 } }} />
+        <Brief font={{color: "white"}} content={{ h1: 'Transaction details', h2: '1% max transaction, 2% max wallet' }} transform={{ position: { x: 3000, y: 250 } }} />
+        <Brief font={{color: "white"}} content={{ h1: 'Token details', h2: 'Supply: 1,000,000,000. Token decimals: 9' }} transform={{ position: { x: 4500, y: 250 } }} />
       </BrowserView>
       <MobileView>
-        <Brief font={{color: "white"}} content={{ h1: 'Buy tax - 9%', h2: '5% Marketing, 2% LP, 2% development' }} transform={{ position: { x: 100, y: 1000 } }} />
-        <Brief font={{color: "white"}} content={{ h1: 'Sell tax - 12%', h2: '8% Marketing, 2% LP, 2% development' }} transform={{ position: { x: 1800, y: 1000 } }} />
-        <Brief font={{color: "white"}} content={{ h1: 'Total supply', h2: '190000000000' }} transform={{ position: { x: 3000, y: 1000 } }} />
-        <Brief font={{color: "white"}} content={{ h1: 'Token Decimals', h2: '19' }} transform={{ position: { x: 4500, y: 1000 } }} />
+        <Brief font={{color: "white"}} content={{ h1: 'Buy tax - 10%', h2: '6% Marketing, 2% LP, 2% development' }} transform={{ position: { x: 100, y: 1000 } }} />
+        <Brief font={{color: "white"}} content={{ h1: 'Sell tax - 10%', h2: '6% Marketing, 2% LP, 2% development' }} transform={{ position: { x: 1800, y: 1000 } }} />
+        <Brief font={{color: "white"}} content={{ h1: 'Transaction details', h2: '1% max transaction, 2% max wallet' }} transform={{ position: { x: 3000, y: 1000 } }} />
+        <Brief font={{color: "white"}} content={{ h1: 'Token details', h2: 'Supply: 1,000,000,000. Token decimals: 9' }} transform={{ position: { x: 4500, y: 1000 } }} />
       </MobileView>
       <SceneObject
         name="VADER VOLCANO"
