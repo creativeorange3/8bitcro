@@ -11,7 +11,7 @@ const EndText = React.memo(props => (
     }}
   >
   <a
-    style={{ textDecoration: "none" }} href="https://t.me/8bitcro" target={'_blank'}
+    style={{ textDecoration: "none" }} href="https://t.me/eightbitcro" target={'_blank'}
   >
     <h1 style={{ color: "#6B6B6B" }}>
       Telegram
